@@ -3,6 +3,7 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 
+
 def drone_change_color():
     color = drone.get_back_color()
     if color == "Blue":
